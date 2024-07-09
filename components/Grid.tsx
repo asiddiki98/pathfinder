@@ -35,11 +35,6 @@ export default function Grid() {
     setGrid(initialGrid);
     setFreezeGrid(false);
 
-    // setStartNodeRow(10);
-    // setStartNodeCol(5);
-    // setFinishNodeRow(10);
-    // setFinishNodeCol(45);
-
     // Optionally, reset visual state of each node
     initialGrid.flat().forEach((node) => {
       const nodeElement = document.getElementById(
