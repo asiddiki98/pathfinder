@@ -182,13 +182,13 @@ export default function Grid() {
           onClick={handleReset}
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >
-          reset
+          Reset
         </button>
         <button
           className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
           onClick={handleStartVisualizing}
         >
-          start
+          Start
         </button>
       </div>
     </>
